@@ -1,0 +1,49 @@
+{
+  "name": "dsh-hles",
+  "version": "4.0.0",
+  "private": false,
+  "type": "module",
+  "description": "HLES — 中文互联网语言进化插件：探索评论区、积累语言经验、全局注入，带作业与对话测试",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./lib/*": "./lib/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "scripts",
+    "docs",
+    "README.md",
+    "cordis.patch.yml"
+  ],
+  "meta": {
+    "title": "语言进化 HLES 4.0",
+    "description": "中文互联网探索 + 全局语言能力增强 + 侧边栏控制面板；所有 Agent 与角色预设自动接入，保留原人格。"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "cordis",
+    "plugin",
+    "chinese",
+    "language",
+    "comments"
+  ]
+}
