@@ -4,6 +4,11 @@
 
 ![license](https://img.shields.io/badge/license-MIT-blue) ![node](https://img.shields.io/badge/node-%3E%3D22-green) ![dsh](https://img.shields.io/badge/DSH-0.2.x-black)
 
+## 下载
+
+- 发布包：[Releases · v4.0.0](https://github.com/xu62957-cell/dsh-hles/releases/tag/v4.0.0)
+- 直接下载：https://github.com/xu62957-cell/dsh-hles/releases/download/v4.0.0/dsh-hles-4.0.0.tar.gz
+
 ## 安装（两种方式）
 
 ### 1. 从 GitHub 克隆后本地安装
